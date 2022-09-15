@@ -1,0 +1,15 @@
+.companies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.companies>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}

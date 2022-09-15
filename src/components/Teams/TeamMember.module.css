@@ -1,0 +1,33 @@
+.team__member {
+    height: 300px;
+padding-bottom: 50px;
+}
+
+.team__member__image {
+    display: flex;
+    justify-content: center;
+}
+
+.team__member__image img {
+    width: 75%;
+    border-radius: 50%;
+    border: solid 5px #DFE0E1;
+}
+
+.team__member_details * {
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.team__member_details h3 {
+    font-weight: bold;
+}
+.team__member_details h4{
+    font-weight: normal;
+    font-size: 1rem;
+}
+.team__member__link-buttons{
+    display: flex;
+    justify-content: center;
+}
