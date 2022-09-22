@@ -10,7 +10,7 @@ import Grid from "../UI/Grid/Grid";
 function Teams(props) {
   return (
     <Section
-      id={"team"}
+      id={styles['team']}
       title={"our amazing team"}
       description={"Lorem ipsum dolor sit amet consectetur."}
       extraDetails={

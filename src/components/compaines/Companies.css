@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+    background-color: #f8f8f8;
 }
 .companies>div{
     display: flex;

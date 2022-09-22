@@ -4,7 +4,7 @@ import styles from "./Portfolio.module.css";
 export const Portfolio = (props) => {
   return (
     <Section
-      id={'portfolio'}
+      id={styles["portfolio"] }
       title="Portfolio"
       description="Lorem ipsum dolor sit amet consectetur."
     >

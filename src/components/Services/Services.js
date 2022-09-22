@@ -8,7 +8,7 @@ import { FiShoppingCart, FiMonitor, FiLock } from "react-icons/fi";
 export const Services = (props) => {
   return (
     <Section
-      id={"services"}
+      id={styles["services"]}
       title="SERVICES"
       description={"Lorem ipsum dolor sit amet consectetur."}
     >
