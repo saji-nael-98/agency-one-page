@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/agency-one-page/static/css/main.6f8e4a7d.css",
-    "main.js": "/agency-one-page/static/js/main.3515d18c.js",
+    "main.js": "/agency-one-page/static/js/main.93576f0f.js",
     "static/js/787.d136f30a.chunk.js": "/agency-one-page/static/js/787.d136f30a.chunk.js",
     "static/media/intro-img.png": "/agency-one-page/static/media/intro-img.879c1b88d23889a3af89.png",
     "static/media/contact-us.png": "/agency-one-page/static/media/contact-us.7f7f4ae62cf31337abb9.png",
@@ -17,11 +17,11 @@
     "static/media/ibm.svg": "/agency-one-page/static/media/ibm.03f09965c1094fe7a3b1756fe8e36fb2.svg",
     "index.html": "/agency-one-page/index.html",
     "main.6f8e4a7d.css.map": "/agency-one-page/static/css/main.6f8e4a7d.css.map",
-    "main.3515d18c.js.map": "/agency-one-page/static/js/main.3515d18c.js.map",
+    "main.93576f0f.js.map": "/agency-one-page/static/js/main.93576f0f.js.map",
     "787.d136f30a.chunk.js.map": "/agency-one-page/static/js/787.d136f30a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8e4a7d.css",
-    "static/js/main.3515d18c.js"
+    "static/js/main.93576f0f.js"
   ]
 }
