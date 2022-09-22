@@ -10,7 +10,7 @@ function NavbarLinks(props) {
       }`}
     >
       <ScrollspyNav
-        scrollTargetIds={["services","portfolio", "team", "contact"]}
+        scrollTargetIds={["Services_services__5V0Y2","Portfolio_portfolio__VdM9N", "Teams_team__4HC-0", "ContactUs_contact-us__KOFKz"]}
         offset={100}
         activeNavClass="is-active"
         scrollDuration="1000"
@@ -21,16 +21,16 @@ function NavbarLinks(props) {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="#Services_services__5V0Y2">Services</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#Portfolio_portfolio__VdM9N">Portfolio</a>
           </li>
           <li>
-            <a href="#team">Team</a>
+            <a href="#Teams_team__4HC-0">Team</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#ContactUs_contact-us__KOFKz">Contact</a>
           </li>
         </ul>
       </ScrollspyNav>
