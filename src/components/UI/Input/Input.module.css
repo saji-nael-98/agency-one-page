@@ -1,0 +1,20 @@
+.label {
+    display: block;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.input {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 0 10px;
+}
+.error{
+    font-size: .95rem;
+    color: red;
+}
+.input::placeholder {
+    font-size: .8rem;
+    padding-left: 10px;
+}

@@ -1,0 +1,59 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  width: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  border-radius: 13px;
+  height: 95%;
+  background-color: white;
+  overflow: hidden;
+}
+
+.modal>button{
+ position: absolute;
+ right: 0;
+}
+.modal header {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+
+.modal header * {
+  margin: 0;
+  padding: 0;
+}
+
+.modal .content {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal .content img {
+  width: 18rem;
+  height: 18rem;
+}
+
+.modal .content p {
+  margin: 5px;
+  max-width: 700px;
+  text-align: center;
+}

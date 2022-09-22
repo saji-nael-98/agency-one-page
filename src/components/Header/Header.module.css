@@ -1,0 +1,33 @@
+.header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assests/images/intro-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro h2 {
+    text-transform: capitalize;
+    color: white;
+    margin: 5px 0;
+    opacity: .8;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 4rem;
+    color: white;
+    margin: 5px 0;
+    text-align: center;
+}
+.intro__btn{
+    padding: 10px 0;
+}

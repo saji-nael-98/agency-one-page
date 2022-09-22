@@ -1,0 +1,30 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.service p {
+    margin: 0;
+}
+
+.service .icon {
+    background-color: #FFC800;
+    width: 10rem;
+    height: 10rem;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

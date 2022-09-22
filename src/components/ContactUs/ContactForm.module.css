@@ -1,0 +1,12 @@
+.contact-form__controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10rem, 30rem));
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 5px;
+}
+@media screen and (max-width:900px) {
+    .contact-form__controls{
+        grid-template-columns: repeat(1, minmax(10rem, 30rem));
+    } 
+}
