@@ -1,24 +1,24 @@
-.section {
+.page-section {
    padding: 50px 0;
 
 }
-.section>h1{
+.page-section>h1{
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 10px;
 }
-.section>p{
+.page-section>p{
     text-align: center;
     font-size: 1.2rem;
     font-style: italic;
 }
-.section__extra-details{
+.page-section__extra-details{
     padding: 10px 0;
     display: flex;
     justify-content: center;
 }
-.section__extra-details p{
+.page-section__extra-details p{
     text-align: center;
     width: 50%;
 }

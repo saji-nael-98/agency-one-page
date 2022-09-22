@@ -5,7 +5,7 @@ import Section from "../UI/Section/Section";
 
 function ContactUs(props) {
     return (
-        <Section title={'CONTACT US'} description={'Lorem ipsum dolor sit amet consectetur.'} className={'contact-us'}>
+        <Section id={'contact'} title={'CONTACT US'} description={'Lorem ipsum dolor sit amet consectetur.'} className={'contact-us'}>
            <ContactForm/>
         </Section>
     );

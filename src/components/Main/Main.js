@@ -1,18 +1,20 @@
-import React from 'react';
-import Teams from "../Teams/Teams";
+import React from "react";
+import Team from "../Teams/Team";
 import Companies from "../compaines/Companies";
 import ContactUs from "../ContactUs/ContactUs";
-import { About } from '../About/About';
+import { Services } from "../Services/Services";
+import { Portfolio } from "../Portfolio/Portfolio";
 
 function Main(props) {
-    return (
-        <main>
-            <About/>
-            <Teams/>
-            <Companies/>
-            <ContactUs/>
-        </main>
-    );
+  return (
+    <main>
+      <Services />
+      <Portfolio />
+      <Team/>
+      <Companies />
+      <ContactUs />
+    </main>
+  );
 }
 
 export default Main;

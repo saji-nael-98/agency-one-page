@@ -2,40 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20ecdcce-b192-4ce7-9a3c-1d0c0fa68e86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ContactUs/ContactForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactUs/ContactForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactUs/ContactUs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ContactUs/ContactUs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Teams/TeamMember.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Teams/TeamMember.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Teams/Teams.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Teams/Teams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/LinkButton/LinkButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/LinkButton/LinkButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarBrand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarBrand.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLink.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLinks.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Section/Section.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Section/Section.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/compaines/Companies.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/compaines/Companies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/About.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/Story.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About/Story.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/ContactUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/ContactUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Teams/Teams.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Teams/Teams.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarBrand.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarBrand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarBrand.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarBrand.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLink.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLinks.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Navbar/NavbarLinks.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Section/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Section/Section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Section/Section.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Section/Section.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +60,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Programmer Saji/WebstormProjects/agency-one-page&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -113,6 +103,9 @@
       <workItem from="1662847229144" duration="3093000" />
       <workItem from="1662890384706" duration="10743000" />
       <workItem from="1663241148902" duration="14000" />
+      <workItem from="1663415676017" duration="1231000" />
+      <workItem from="1663422045988" duration="781000" />
+      <workItem from="1663626816507" duration="1073000" />
     </task>
     <servers />
   </component>

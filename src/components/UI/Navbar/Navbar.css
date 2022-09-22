@@ -5,6 +5,7 @@
     top: 0;
     width: 100%;
     display: flex;
+    z-index: 9;
 }
 .navbar.active{
     background-color: #242424;
@@ -15,6 +16,6 @@
         display: block;
         flex-direction: column;
         z-index: 1; 
-        
+        background-color: #242424;
     }
 }

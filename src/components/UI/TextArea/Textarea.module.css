@@ -1,0 +1,21 @@
+.label {
+    display: block;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.textarea {
+    min-height: 172px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 5px 10px;
+}
+
+.error {
+    font-size: .95rem;
+    color: red;
+}
+.textarea::placeholder {
+    font-size: .8rem;
+    padding-left: 10px;
+}

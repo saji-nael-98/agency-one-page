@@ -1,18 +1,38 @@
-import React from 'react';
-import styles from './NavbarLinks.module.css'
-import NavbarLink from "./NavbarLink";
+import React from "react";
+import styles from "./NavbarLinks.module.css";
+import ScrollspyNav from "react-scrollspy-nav";
 
 function NavbarLinks(props) {
-
-    return (
-        <ul className={`${styles['navbar__links']} ${!props.open ? styles['navbar__links__close'] : ''}`}>
-            <NavbarLink link={"/service"} label={'services'}/>
-            <NavbarLink link={"/portfolio"} label={'portfolio'}/>
-            <NavbarLink link={"/about"} label={'about'}/>
-            <NavbarLink link={"/team"} label={'team'}/>
-            <NavbarLink link={"/contact"} label={'contact'}/>
+  return (
+    <div
+      className={`${styles["navbar__links"]} ${
+        !props.open ? styles["navbar__close"] : ""
+      }`}
+    >
+      <ScrollspyNav
+        scrollTargetIds={["services", "team", "contact"]}
+        offset={100}
+        activeNavClass="is-active"
+        scrollDuration="1000"
+        headerBackground="true"
+      >
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
-    );
+      </ScrollspyNav>
+    </div>
+  );
 }
 
 export default NavbarLinks;

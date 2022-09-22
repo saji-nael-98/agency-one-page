@@ -2,14 +2,15 @@ import React from 'react';
 import styles from './TeamMember.module.css'
 import LinkButton from "../UI/LinkButton/LinkButton";
 import {AiFillFacebook, AiFillLinkedin, AiFillTwitterCircle} from "react-icons/ai";
+import GridItem from '../UI/Grid/GridItem';
 
 function TeamMember(props) {
     return (
-        <div className={styles['team__member']}>
-            <div className={styles['team__member__image']}>
+        <GridItem className={styles['member']}>
+            <div className={styles['member-image']}>
                 <img src={props.image} alt={props.name}/>
             </div>
-            <div className={styles['team__member_details']}>
+            <div className={styles['member-details']}>
                 <h3>
                     {props.name}
                 </h3>
@@ -17,7 +18,7 @@ function TeamMember(props) {
                     {props.role}
                 </h4>
             </div>
-            <div className={styles['team__member__link-buttons']}>
+            <div className={styles['member-social-links-buttons']}>
                 <LinkButton>
                     <span>{<AiFillFacebook/>}</span>
                 </LinkButton>
@@ -28,7 +29,7 @@ function TeamMember(props) {
                     <span>{<AiFillTwitterCircle/>}</span>
                 </LinkButton>
             </div>
-        </div>
+        </GridItem>
     );
 }
 

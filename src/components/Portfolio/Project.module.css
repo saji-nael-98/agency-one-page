@@ -1,0 +1,60 @@
+.project {
+    height: 400px;
+    background-color: white;
+    
+}
+
+.project__img {
+    height: 75%;
+    cursor: pointer;
+    position: relative;
+   
+}
+
+.project__img-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 180, 62, .95);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.project__img-hover>span {
+    font-size: 8rem;
+    color: white;
+}
+
+.project__img-hover:hover {
+    opacity: 1;
+}
+
+.project__img>img {
+    height: 100%;
+}
+
+.project__details {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__details * {
+    margin: 0;
+}
+
+.project__details>h4 {
+    font-weight: bold;
+}
+
+.project__details>p {
+    margin-top: 5px;
+    font-size: .9rem;
+    font-style: italic;
+}
